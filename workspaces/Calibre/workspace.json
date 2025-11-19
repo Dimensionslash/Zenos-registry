@@ -2,7 +2,6 @@
   "friendly_name": "Calibre",
   "image_src": "calibre.png",
   "description": "Calibre is a powerful and easy to use e-book manager.",
-  "name": "lscr.io/linuxserver/calibre:latest",
   "cores": 2,
   "memory": 2768,
   "gpu_count": 0,
@@ -32,10 +31,25 @@
     "arm64"
   ],
   "compatibility": [
-    "1.13.x",
-    "1.14.x",
-    "1.15.x",
-    "1.16.x"
-  ],
-  "uncompressed_size_mb": 1950
+    {
+      "version": "1.13.x",
+      "image": "lscr.io/linuxserver/calibre:latest",
+      "uncompressed_size_mb": 1950
+    },
+    {
+      "version": "1.14.x",
+      "image": "lscr.io/linuxserver/calibre:latest",
+      "uncompressed_size_mb": 1950
+    },
+    {
+      "version": "1.15.x",
+      "image": "lscr.io/linuxserver/calibre:latest",
+      "uncompressed_size_mb": 1950
+    },
+    {
+      "version": "1.16.x",
+      "image": "lscr.io/linuxserver/calibre:latest",
+      "uncompressed_size_mb": 1950
+    }
+  ]
 }
